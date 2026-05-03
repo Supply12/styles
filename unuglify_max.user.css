@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name           web.max.ru
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    My custom styles for MAX
+@author         mrCoolCola
+@updateURL      http://192.168.0.25/files/styles/unuglify_max.user.css
+==/UserStyle== */
+@-moz-document domain("web.max.ru") {
+    :root {
+        --mawallpeper: url('https://w.wallhaven.cc/full/0w/wallhaven-0wer6r.jpg');
+    }
+    .button--small.svelte-1895ud0 {
+        border-radius: 13%;
+        min-width:32px;
+        min-height:32px;
+    }
+    .avatar.svelte-1gp4c0a .avatarImage {
+        border-radius: 13% !important;
+    }
+    input.field.svelte-1kc8stv span.button-inner.svelte-1895ud0 {
+        border-radius: 13% !important;
+    }
+    .bubble.svelte-1htnb3l {
+        background: var(--bubbles-background-bubble-gradient-step-3) !important;
+    }
+    .emptyState.svelte-1aijhs3, .history.svelte-1prjz03 {
+        background: var(--mawallpeper) !important;
+        /* Add the blur effect 
+        filter: blur(3px);
+        -webkit-filter: blur(3px);*/
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .input--compact.svelte-1kc8stv {
+        border-radius: 6px !important;
+    }
+}

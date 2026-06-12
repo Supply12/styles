@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name           vk.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("vk.com"), domain("vk.ru") {
+    /* Insert code here... */
+    #l_gr, 
+    #l_ph, 
+    #l_aud, 
+    #l_vid, 
+    #l_svd, 
+    #l_ap, 
+    #l_stickers, 
+    #l_mk, 
+    #l_mini_apps, 
+    #l_buy_votes, 
+    #l_fav, 
+    #l_ads, 
+    #l_faq,
+    #fastchat-reforged,
+    .vkitLeftMenuOld__separator--08i3S {
+        display: none !important;
+    };
+    .MEAvatar__imgWrapper, .BasicAvatar {
+      border-radius: 3% !important;  
+    };
+}

@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Debloat Youtube
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    My custom styles for Youtube
+@author         mrCoolCola
+@updateURL      http://192.168.0.25/files/styles/debloat_yt.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.youtube.com/watch") {
+.ytd-video-description-infocards-section-renderer {
+    display: none
+}
+
+.ytd-structured-description-content-renderer {
+    display:none 
+}
+ytd-reel-shelf-renderer {
+    display: none
+}
+
+.style-scope .yt-chip-cloud-renderer {
+    display: none
+}
+
+.ytwTopBannerImageTextIconButtonedLayoutViewModelHost {
+    display: none
+}
+}

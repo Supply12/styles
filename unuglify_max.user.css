@@ -2,8 +2,8 @@
 @name           web.max.ru
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    My custom styles for MAX
-@author         mrCoolCola
+@description    A new userstyle
+@author         Me
 @updateURL      http://192.168.0.25/files/styles/unuglify_max.user.css
 ==/UserStyle== */
 @-moz-document domain("web.max.ru") {
@@ -15,7 +15,7 @@
         min-width:32px;
         min-height:32px;
     }
-    .avatar.svelte-1gp4c0a .avatarImage {
+    .avatar.svelte-1gp4c0a .avatarImage, .avatarStoryRingMask.svelte-6ybo81 {
         border-radius: 13% !important;
     }
     input.field.svelte-1kc8stv span.button-inner.svelte-1895ud0 {

@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           reddit.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+@updateURL      http://192.168.0.25/files/styles/reddit_noad.user.css
+==/UserStyle== */
+
+@-moz-document domain("reddit.com") {
+    .promotedlink {
+        display: none;
+    }
+}
